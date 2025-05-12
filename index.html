@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>JS Event Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="main-heading">Welcome to the Interactive Playground!</h1>
+  </header>
+
+  <section class="buttons">
+    <button id="text-btn">Change Text</button>
+    <button id="color-btn">Change Color</button>
+    <button id="secret-btn">Double-Click Me!</button>
+  </section>
+
+  <section class="gallery">
+    <img id="gallery-img" src="https://via.placeholder.com/200" alt="Gallery Image" />
+    <button id="next-img">Next Image</button>
+  </section>
+
+  <section class="accordion">
+    <h3 class="accordion-header">Click to Expand</h3>
+    <div class="accordion-content">Hidden content revealed!</div>
+  </section>
+
+  <section class="form-section">
+    <form id="myForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <button type="submit">Submit</button>
+      <div id="form-feedback"></div>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

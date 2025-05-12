@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 10px;
+    background: #f0f0f0;
+  }
+  
+  .accordion-header:hover {
+    cursor: pointer;
+    color: darkblue;
+  }
+  
+  img {
+    width: 200px;
+    transition: transform 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.05);
+  }
+  
